@@ -1,0 +1,15 @@
+@mixin text-box-text{
+	min-width: 30rem;
+	margin-bottom: 3rem;
+	padding: 1rem;
+    font-size: 2rem;
+    color: $color-main;
+}
+
+@mixin btn-sm{
+	padding: .5rem 2rem;
+	border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    margin: 1rem;
+}

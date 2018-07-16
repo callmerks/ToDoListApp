@@ -1,0 +1,30 @@
+.btn-submit{
+    @include btn-sm;
+	background: $color-main;
+	color: $color-white;
+}
+
+.btn-edit{
+    @include btn-sm;
+	background: $color-white;
+    color: $color-main;
+}
+
+.btn-delete{
+    @include btn-sm;
+	background: $color-secondary;
+    color: $color-white;
+}
+
+.btn-delete-all{
+	background: $color-dark;
+	color: $color-main;
+	padding: 2rem;
+	margin: 0 auto;
+    min-width: 20rem;
+    display: grid;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+
+}

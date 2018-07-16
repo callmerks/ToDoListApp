@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background: #353e45;
+  font-family: 'Lato', sans serif;
+  font-size: 1.65rem;
+  font-weight: 300;
+  color: #000000;
+  line-height: 2.2;
+  letter-spacing: .1rem;
+  word-spacing: .1rem; }
+
+.margin-sm-btm {
+  margin-bottom: 1.5rem; }
+
+.margin-m-btm {
+  margin-bottom: 2.5rem; }
+
+.margin-lg-btm {
+  margin-bottom: 4.5rem; }
+
+.padding-sm-btm {
+  padding-bottom: 1.5rem; }
+
+.padding-m-btm {
+  padding-bottom: 2.5rem; }
+
+.padding-lg-btm {
+  padding-bottom: 4.5rem; }
+
+.padding-lg-top {
+  padding-top: 4.5rem; }
+
+.header {
+  background: #ea1e63;
+  text-align: center; }
+  .header__title {
+    color: #ffffff; }
+  .header__para {
+    color: #e2e2e2; }
+
+.task-box {
+  max-width: 55rem;
+  background: #08070e;
+  margin: 6rem auto; }
+  .task-box__input {
+    min-width: 30rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #ea1e63;
+    height: 5rem; }
+  .task-box__textarea {
+    min-width: 30rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #ea1e63;
+    height: 10rem; }
+
+.task-results {
+  margin: 0 auto;
+  text-align: center;
+  background: #ea1e63;
+  padding: 2rem;
+  max-width: 50rem; }
+  .task-results__heading {
+    color: #ffffff; }
+  .task-results__para {
+    color: #e2e2e2;
+    display: flex;
+    justify-content: center; }
+  .task-results__date-time {
+    color: #e2e2e2; }
+
+.btn-submit {
+  padding: .5rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  margin: 1rem;
+  background: #ea1e63;
+  color: #ffffff; }
+
+.btn-edit {
+  padding: .5rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  margin: 1rem;
+  background: #ffffff;
+  color: #ea1e63; }
+
+.btn-delete {
+  padding: .5rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  margin: 1rem;
+  background: #353e45;
+  color: #ffffff; }
+
+.btn-delete-all {
+  background: #08070e;
+  color: #ea1e63;
+  padding: 2rem;
+  margin: 0 auto;
+  min-width: 20rem;
+  display: grid;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer; }
+
+.text-cinzel {
+  font-family: 'Cinzel', serif;
+  font-weight: 700; }
+
+.text-center {
+  text-align: center; }

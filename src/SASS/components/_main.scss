@@ -1,0 +1,37 @@
+.task-box{
+	max-width: 55rem;
+    background: #08070e;
+    margin: 6rem auto;
+
+    &__input{
+    @include text-box-text;
+    height: 5rem;
+    }
+
+    &__textarea{
+    @include text-box-text;
+    height: 10rem;
+    }
+}
+
+.task-results{
+	margin: 0 auto;
+    text-align: center;
+    background: $color-main;
+    padding: 2rem;
+    max-width: 50rem;
+
+    &__heading{
+    color: $color-white;
+    }
+
+    &__para{
+    color: $color-grey;
+    display: flex;
+    justify-content: center;
+    }
+
+    &__date-time{
+    color: $color-grey;
+    }
+}
